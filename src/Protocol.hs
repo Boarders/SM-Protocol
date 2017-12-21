@@ -13,8 +13,6 @@ curve = getCurveByName SEC_p256r1
 data ResultVal = Equal | NotEqual | Error
   deriving (Show,Eq)
 
--- Alice private x, Bob private y
-
 -- Follows conventions of variable names in OTR specificiation: https://otr.cypherpunks.ca/Protocol-v3-4.0.0.html
 -- Curve points suffixed with Pt annotation and privateKey integers with Int annotation.
 
